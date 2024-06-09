@@ -1,0 +1,13 @@
+(define (problem problema1)
+    	(:domain robot)
+  	(:init (localizacion robot cocina)
+		(localizacion libro pasillo)
+		(localizacion mesa cocina)
+		(localizacion cafe cocina)
+	 	(localizacion fruta pasillo)
+        (localizacion vaso salon)
+		(robotLibre)
+	)
+  	(:goal (and (localizacion libro salon) (localizacion fruta cocina) (localizacion vaso cocina)))
+;el robot se encuentra en la cocina; tiene que lograr que el libro este en el salon, la fruta en la cocina y el vaso en la cocina 
+) 
